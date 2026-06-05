@@ -39,27 +39,27 @@ export default function Hero() {
                 >
                     <div className="inline-flex items-center px-4 py-1.5 rounded-full border border-white/10 bg-white/5 backdrop-blur-xl text-xs sm:text-sm font-medium text-blue-300 tracking-[0.2em] shadow-[0_0_30px_rgba(59,130,246,0.15)] uppercase">
                         <span className="w-1.5 h-1.5 rounded-full bg-blue-400 mr-2 animate-pulse" />
-                        Available for Hire
+                        The edit that brought this whole vision to life. 🎬
                     </div>
                 </m.div>
 
                 {/* Main Title - Split for animation with tighter premium tracking */}
                 <h1 className="text-6xl md:text-8xl lg:text-9xl font-bold tracking-tighter text-white mb-8 leading-[0.9] w-full flex flex-col items-center">
                     <m.span
-                        initial={{ opacity: 0, y: 60, filter: "blur(10px)" }}
-                        animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
-                        transition={{ duration: 1, ease: [0.25, 1, 0.5, 1], delay: 0.1 }}
-                        className="block w-full bg-gradient-to-b from-white via-white/90 to-white/40 bg-clip-text text-transparent drop-shadow-sm pb-2"
-                    >
-                        VIDEO
+                    initial={{ opacity: 0, y: 60, filter: "blur(10px)" }}
+                    animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+                    transition={{ duration: 1, ease: [0.25, 1, 0.5, 1], delay: 0.1 }}
+                    className="block w-full bg-gradient-to-b from-white via-white/90 to-white/40 bg-clip-text text-transparent drop-shadow-sm pb-2"
+>
+                    ILA
                     </m.span>
                     <m.span
                         initial={{ opacity: 0, y: 40, filter: "blur(10px)" }}
                         animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
                         transition={{ duration: 1, ease: [0.25, 1, 0.5, 1], delay: 0.3 }}
                         className="block w-full text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-indigo-400 to-purple-400 pb-4 filter drop-shadow-[0_0_30px_rgba(59,130,246,0.25)]"
-                    >
-                        EDITOR
+>
+                    HARSHITH
                     </m.span>
                 </h1>
 
@@ -70,7 +70,7 @@ export default function Hero() {
                     transition={{ duration: 0.8, delay: 0.6, ease: [0.25, 1, 0.5, 1] }}
                     className="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto font-light leading-relaxed mb-12 sm:mb-16 md:px-0"
                 >
-                    Turning raw footage into visual stories — with style, precision, and a touch of <span className="text-white font-medium drop-shadow-[0_0_15px_rgba(255,255,255,0.4)]">cinematic magic</span>.
+                    Creative Video Editor & Graphic Designer specializing in cinematic storytelling, motion graphics, brand visuals, and content that leaves a lasting impression.
                 </m.p>
 
                 {/* Buttons */}
